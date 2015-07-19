@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="49117jtZhang.one" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>ZH-CN</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://49117jtZhang.one/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://49117jtZhang.one/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ONE.WindowsPhone.xr.xml" uri="ms-resource://49117jtZhang.one/Files/ONE.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>ONE.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="360x360.png" uri="ms-resource://49117jtZhang.one/Files/Assets/360x360.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\360x360.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="58x58.png" uri="ms-resource://49117jtZhang.one/Files/Assets/58x58.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\58x58.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DarkGray.png" uri="ms-resource://49117jtZhang.one/Files/Assets/DarkGray.png">
+					<Candidate type="Path">
+						<Value>Assets\DarkGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LightGray.png" uri="ms-resource://49117jtZhang.one/Files/Assets/LightGray.png">
+					<Candidate type="Path">
+						<Value>Assets\LightGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MediumGray.png" uri="ms-resource://49117jtZhang.one/Files/Assets/MediumGray.png">
+					<Candidate type="Path">
+						<Value>Assets\MediumGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://49117jtZhang.one/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://49117jtZhang.one/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://49117jtZhang.one/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://49117jtZhang.one/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://49117jtZhang.one/Files/Assets/WideLogo.png"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DataModel">
+				<NamedResource name="SampleData.json" uri="ms-resource://49117jtZhang.one/Files/DataModel/SampleData.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="Group1Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group1Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group1Title" uri="ms-resource://49117jtZhang.one/Resources/Group1Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group2Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group2Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group2Title" uri="ms-resource://49117jtZhang.one/Resources/Group2Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group3Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group3Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group3Title" uri="ms-resource://49117jtZhang.one/Resources/Group3Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group4Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group4Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group4Title" uri="ms-resource://49117jtZhang.one/Resources/Group4Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group5Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group5Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group5Title" uri="ms-resource://49117jtZhang.one/Resources/Group5Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group6Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Group6Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组子标题: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group6Title" uri="ms-resource://49117jtZhang.one/Resources/Group6Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组标题: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GroupDescription" uri="ms-resource://49117jtZhang.one/Resources/GroupDescription">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>组说明: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection1" uri="ms-resource://49117jtZhang.one/Resources/HubSection1">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>第 1 部分</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection2" uri="ms-resource://49117jtZhang.one/Resources/HubSection2">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>第 2 部分</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection3" uri="ms-resource://49117jtZhang.one/Resources/HubSection3">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>第 3 部分</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection4" uri="ms-resource://49117jtZhang.one/Resources/HubSection4">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>第 4 部分</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection5" uri="ms-resource://49117jtZhang.one/Resources/HubSection5">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>第 5 部分</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item1Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item1Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item1Title" uri="ms-resource://49117jtZhang.one/Resources/Item1Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item2Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item2Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item2Title" uri="ms-resource://49117jtZhang.one/Resources/Item2Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item3Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item3Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item3Title" uri="ms-resource://49117jtZhang.one/Resources/Item3Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item4Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item4Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item4Title" uri="ms-resource://49117jtZhang.one/Resources/Item4Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item5Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item5Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item5Title" uri="ms-resource://49117jtZhang.one/Resources/Item5Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item6Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item6Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item6Title" uri="ms-resource://49117jtZhang.one/Resources/Item6Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item7Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item7Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 7</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item7Title" uri="ms-resource://49117jtZhang.one/Resources/Item7Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 7</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item8Subtitle" uri="ms-resource://49117jtZhang.one/Resources/Item8Subtitle">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项子标题: 8</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item8Title" uri="ms-resource://49117jtZhang.one/Resources/Item8Title">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项标题: 8</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemContent" uri="ms-resource://49117jtZhang.one/Resources/ItemContent">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo scelerisque faucibus aenean ullamcorper ante mauris dignissim consectetuer nullam lorem vestibulum habitant conubia elementum pellentesque morbi facilisis arcu sollicitudin diam cubilia aptent vestibulum auctor eget dapibus pellentesque inceptos leo egestas interdum nulla consectetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemContentFormat" uri="ms-resource://49117jtZhang.one/Resources/ItemContentFormat">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项内容:  {0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemDescription" uri="ms-resource://49117jtZhang.one/Resources/ItemDescription">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>项描述: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NavigationFailedExceptionMessage" uri="ms-resource://49117jtZhang.one/Resources/NavigationFailedExceptionMessage">
+				<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+					<Value>导航失败。</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="DescriptionHeader">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/DescriptionHeader/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>说明文本:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Header">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/Header/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>应用程序名称</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Hub">
+				<NamedResource name="Header" uri="ms-resource://49117jtZhang.one/Resources/Hub/Header">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>应用程序名称</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ItemSubTitle">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/ItemSubTitle/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>项子标题</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ItemTitle">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/ItemTitle/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>项标题</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="LongText">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/LongText/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1DescriptionText">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/Section1DescriptionText/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1Header">
+				<NamedResource name="Header" uri="ms-resource://49117jtZhang.one/Resources/Section1Header/Header">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>第 1 部分</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1Subtitle">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/Section1Subtitle/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit nonumy sed consectetuer ising elit, sed diam</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section2Header">
+				<NamedResource name="Header" uri="ms-resource://49117jtZhang.one/Resources/Section2Header/Header">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>第 2 部分</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section2UnderTitle">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/Section2UnderTitle/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>Quisque in porta lorem dolor amet sed consectetuer ising elit, sed diam non my nibh uis mod wisi quip.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section3Header">
+				<NamedResource name="Header" uri="ms-resource://49117jtZhang.one/Resources/Section3Header/Header">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>第 3 部分</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section3Subtitle">
+				<NamedResource name="Text" uri="ms-resource://49117jtZhang.one/Resources/Section3Subtitle/Text">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>节子标题</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section4Header">
+				<NamedResource name="Header" uri="ms-resource://49117jtZhang.one/Resources/Section4Header/Header">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>第 4 部分</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

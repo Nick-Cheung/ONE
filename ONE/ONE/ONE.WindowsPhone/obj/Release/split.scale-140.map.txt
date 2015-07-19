@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.WindowsPhone\obj\Release\split.scale-140.pri"			"resources.pri"
+"C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.WindowsPhone\obj\Release\PackageLayout\Assets\WideLogo.scale-140.png"			"Assets\WideLogo.scale-140.png"

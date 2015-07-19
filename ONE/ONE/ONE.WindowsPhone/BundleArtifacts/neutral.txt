@@ -1,0 +1,3 @@
+MainPackage=C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.WindowsPhone\bin\Release\ONE.WindowsPhone_1.1.0.2_Bundle\ONE.WindowsPhone_1.1.0.2_AnyCPU.appx
+SymbolPackage=C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.WindowsPhone\AppPackages\ONE.WindowsPhone_1.1.0.2_Test\ONE.WindowsPhone_1.1.0.2_AnyCPU.appxsym
+ResourcePack=C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.WindowsPhone\bin\Release\ONE.WindowsPhone_1.1.0.2_Bundle\ONE.WindowsPhone_1.1.0.2_scale-140.appx

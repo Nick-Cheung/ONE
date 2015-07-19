@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZHANGJT</Machine>
+    <WindowsUser>jt</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>49117jtZhang.one</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E6477208B855DD784DAB34B4205BD2AD1CF03346AF8018D85DD818500B891928</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49117jtZhang.one_1.1.0.0_neutral__b0jaz2xygr7tr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49117jtZhang.one_b0jaz2xygr7tr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49117jtZhang.one</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=6E9F3C3E-70E1-4B95-B599-FB093861F027</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-18T15:53:38.221</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\ONE.Windows.exe">
+      <PackagePath>ONE.Windows.exe</PackagePath>
+      <Modified>2015-07-18T15:53:37.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\BasicPageBackground.jpg">
+      <PackagePath>Assets\BasicPageBackground.jpg</PackagePath>
+      <Modified>2015-07-12T10:13:05.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\HubpageBackground.jpg">
+      <PackagePath>Assets\HubpageBackground.jpg</PackagePath>
+      <Modified>2015-07-12T10:13:05.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-12T10:13:07.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\MediumLogo.scale-100.png">
+      <PackagePath>Assets\MediumLogo.scale-100.png</PackagePath>
+      <Modified>2015-07-12T10:13:07.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-12T10:13:07.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-12T10:13:08.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-12T10:13:08.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2014-03-14T02:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-07-12T09:41:13.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-18T15:32:57.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\PassagePage.xbf">
+      <PackagePath>PassagePage.xbf</PackagePath>
+      <Modified>2015-07-18T15:32:57.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-07-18T15:32:57.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\QuestionPage.xbf">
+      <PackagePath>QuestionPage.xbf</PackagePath>
+      <Modified>2015-07-18T15:32:57.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\ONE.Windows.xr.xml">
+      <PackagePath>ONE.Windows.xr.xml</PackagePath>
+      <Modified>2015-07-18T15:12:32.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jt\Desktop\新建文件夹\ONE\ONE\ONE.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-18T15:53:38.083</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

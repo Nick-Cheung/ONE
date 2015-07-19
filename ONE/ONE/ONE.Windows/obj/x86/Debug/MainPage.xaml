@@ -1,0 +1,129 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="ONE.MainPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ONE"
+    xmlns:data="using:ONE.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+        <!-- TODO:  如果在 App.xaml 中声明了键 AppName，则删除此行-->
+        <x:String x:Key="AppName">One 一个</x:String>
+    </Page.Resources>
+
+    <!--
+    此网格充当页的根面板。
+  -->
+    <Grid >
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/HubpageBackground.jpg"/>
+        </Grid.Background>
+
+        <Hub FontFamily="Segoe UI" >
+            <Hub.Header>
+                <!-- 后退按钮和页标题 -->
+                <Grid Height="50">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="0" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top" Margin="100,0,0,0"/>
+                    <TextBlock Text="{Binding one.date}" Grid.Column="1" FontSize="18" Margin="10,0,0,0" VerticalAlignment="Bottom"/>
+                </Grid>
+            </Hub.Header>
+
+            <!-- One首页 -->
+            <HubSection Width="600" Header="One 首页" Name="mainpage">
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Image x:ConnectionId='4' Grid.Row="0" IsTapEnabled="True"                       Source="{Binding one.Homepageimage}" Width="500"/>
+                        <TextBlock Grid.Row="1" Text ="{Binding one.HomepagestrAuthor}" FontSize="16" Height="24" TextAlignment="Right" Margin="0,5,0,0"/>
+                        <TextBlock Grid.Row="2" Text="{Binding one.HomepagestrContent}" FontSize="20" Height="150" TextWrapping="Wrap" Margin="0,8,0,0" />
+
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+            <!--One文章-->
+            <HubSection Header="One 文章" Name="content">
+                <DataTemplate>
+                    <Grid Width="600" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" FontSize="32" Text="{Binding one.ContentstrContTitle}" Height="40" Margin="0,10,0,0" />
+                        <TextBlock Grid.Row="1" FontSize="20" Text="{Binding one.ContentstrContAuthor}" Height="26" Margin="0,10,0,0"/>
+
+                        <Grid x:ConnectionId='3' IsTapEnabled="True"                      Grid.Row="2">
+                            <StackPanel>
+                                <TextBlock  FontSize="22" Text="{Binding one.ContentstrContent}" TextWrapping="Wrap" Height="92" Margin="0,16,0,0"  />
+                                <TextBlock FontSize="30"  Text="点击查看全文" Height="45" TextAlignment="Right" Margin="0,20,0,0" Foreground="#FF298FE4" FontStyle="Italic" FontWeight="Bold" />
+                            </StackPanel>
+                        </Grid>
+
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+            <!-- One问题 -->
+            <HubSection x:Name="question"  Header="One 问题">
+                <DataTemplate>
+                    <Grid Width="600">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="{Binding one.strQuestionTitle}"   FontSize="24" TextWrapping="Wrap" Margin="0,10"/>
+                        <TextBlock Grid.Row="1" Text="{Binding one.strQuestionContent}"   FontSize="20" TextWrapping="Wrap" FontFamily="Global User Interface" Margin="8,10,0,10"/>
+                        <TextBlock x:ConnectionId='2' IsTapEnabled="True"                           Grid.Row="2" FontSize="30"  Text="点击查看全文" Height="45" TextAlignment="Right" Margin="0,20,0,0" Foreground="#FF298FE4" FontStyle="Italic" FontWeight="Bold" />
+
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+            <!-- One最近8期 -->
+            <HubSection Header="One 最近8期" Width="400" >
+                <DataTemplate>
+                    <Grid>
+                        <GridView x:ConnectionId='1' Name="datelistview" ItemsSource="{Binding one.datelist}" IsItemClickEnabled="True"                      >
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Background="#FF4197BF">
+                                        <TextBlock Text="{Binding  }" FontSize="20" Height="120" Width="120" TextAlignment="Center" LineHeight="24" Padding="0,40,0,0" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <ItemsWrapGrid MaximumRowsOrColumns="4" />
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+
+                        </GridView>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+        </Hub>
+    </Grid>
+</Page>
+
